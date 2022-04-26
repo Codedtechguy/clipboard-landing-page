@@ -64,7 +64,7 @@ section.container {
 section.container .hero {
 				width:95%;
 				padding:2.5%;
-				height:100vh;
+				height:auto;
 				text-align:center;
 				
 }
