@@ -1,0 +1,522 @@
+/* Colors used
+
+## Colors
+
+### Primary
+
+- Strong Cyan: hsl(171, 66%, 44%)
+- Light Blue: hsl(233, 100%, 69%)
+
+### Neutral
+
+- Dark Grayish Blue: hsl(210, 10%, 33%)
+- Grayish Blue: hsl(201, 11%, 66%) */
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+				padding:0;
+				margin:0;
+				font-family:'Bai Jamjuree';
+				color:hsl(201, 11%, 66%) ;
+				
+}
+
+body {
+				background:#fff;
+				width:100%;
+				height:auto;
+				background:url('images/bg-header-mobile.png');
+				background-repeat:no-repeat;
+				background-size:100%;
+				
+}
+
+h1 {
+				font-weight:600;
+				font-size:35px;
+				line-height:45px;
+				color: hsl(210, 10%, 33%);
+}
+
+h2 {
+				font-size:30px;
+				color:hsl(210, 10%, 33%);
+}
+
+h3 {
+				font-size:25px;
+				color:hsl(210, 10%, 33%);
+}
+
+p {
+				font-size:18px;
+				line-height:30px;
+				
+}
+
+section.container {
+				width:90%;
+				height:auto;
+				padding:5%;
+}
+
+section.container .hero {
+				width:95%;
+				padding:2.5%;
+				height:100vh;
+				text-align:center;
+				
+}
+
+section.container .hero .hero-img {
+				width:100%;
+				margin: 15% 0 15% 0;
+}
+
+section.container .hero .hero-img img {
+				width:100px;
+				
+}
+
+section.container .hero .hero-text {
+				width:100%;
+				margin: 15% 0 15% 0;
+}
+
+section.container .hero .hero-text .ios {
+				width:95%;
+				padding:15px 0 10px 0;
+				border-radius:25px 25px 25px 25px;
+				color:white;
+				font-weight:bold;
+				border:none;
+				background:hsl(171, 66%, 44%);
+				border-bottom:2px solid hsl(171, 66%, 30%);
+				margin:5% 0 5% 0;
+				font-size:18px;
+				box-shadow: 0px 10px 20px rgb(0, 0, 0, 0.1);
+}
+
+section.container .hero .hero-text .mac {
+				width:95%;
+				padding:15px 0 10px 0;
+				border-radius:25px 25px 25px 25px;
+				color:white;
+				font-weight:bold;
+				border:none;
+				background:hsl(233, 100%, 69%);
+				border-bottom:2px solid hsl(233, 100%, 59%);
+				margin:5% 0 5% 0;
+				font-size:18px;
+				box-shadow: 0px 10px 20px rgb(0, 0, 0, 0.1);
+}
+
+
+/* Desktop design for hero section */
+
+@media screen and (min-width:1024px) {
+
+h1 {
+				font-weight:600;
+				font-size:40px;
+				line-height:45px;
+				color: hsl(210, 10%, 33%);
+}
+
+section.container .hero {
+				width:55%;
+				padding:0% 22.5% 0% 22.5%;
+				height:auto;
+				
+}
+
+section.container .hero .hero-img {
+				width:100%;
+				margin: 5% 0 5% 0;
+}
+
+section.container .hero .hero-text {
+				width:100%;
+				margin: 10% 0 10% 0;
+}
+
+section.container .hero .hero-img img {
+				width:100px;
+			
+}
+
+section.container .hero .hero-text .ios,  section.container .hero .hero-text .mac{
+				width:30%;
+				margin:5% 10px 5% 10px;
+				font-size:15px;
+}
+
+
+
+
+
+}
+
+
+
+
+section.container .one {
+				width: 95%;
+				padding:2.5%;
+				text-align:center;
+}
+
+section.container .one .one-intro {
+				width:100%;
+				margin:10% 0 10% 0;
+}
+
+section.container .one .one-img {
+				width:100%;
+				margin:10% 0 10% 0;
+}
+
+section.container .one .one-img img {
+				width:100%;
+}
+
+section.container .one .one-list {
+				width:100%;
+				margin:10% 0 10% 0;
+				text-align:center;
+}
+
+section.container .one .one-list dl {
+				width:95%;
+				padding:2.5%;
+}
+
+section.container .one .one-list dt {
+				margin:15% 0 5% 0;
+				
+}
+
+section.container .one .one-list dd {
+				color:hsl(201, 11%, 66%) ;
+				font-size:18px;
+				line-height:30px;
+}
+
+
+section.container .two {
+				width: 95%;
+				padding:2.5%;
+				text-align:center;
+}
+
+section.container .two .two-intro {
+				width:100%;
+				margin:10% 0 10% 0;
+}
+
+section.container .two .two-img {
+				width:100%;
+				margin:10% 0 10% 0;
+}
+
+section.container .two .two-img img {
+				width:100%;
+}
+
+
+section.container .three {
+				width: 95%;
+				padding:2.5%;
+				text-align:center;
+}
+
+section.container .three .three-intro {
+				width:100%;
+				margin:10% 0 10% 0;
+}
+
+section.container .three .three-blocks {
+				width:100%;
+				margin:10% 0 10% 0;
+				overflow:auto;
+}
+
+section.container .three .three-blocks .block {
+				float:none;
+				width:auto;
+}
+
+section.container .three .three-blocks img {
+				margin:10% 0 10% 0;
+}
+
+
+section.container .four {
+				width: 95%;
+				padding:2.5%;
+				text-align:center;
+}
+
+
+section.container .four img {
+				width:auto;
+				margin:10% 0 10% 0;
+				padding:5% 0 5% 0;
+				
+}
+
+section.container .five {
+				width:95%;
+				padding:2.5%;
+				margin:10% 0 10% 0;
+				text-align:center;
+}
+
+
+
+section.container .five .ios {
+				width:95%;
+				padding:15px 0 10px 0;
+				border-radius:25px 25px 25px 25px;
+				color:white;
+				font-weight:bold;
+				border:none;
+				background:hsl(171, 66%, 44%);
+				border-bottom:2px solid hsl(171, 66%, 30%);
+				margin:5% 0 5% 0;
+				font-size:18px;
+				box-shadow: 0px 10px 20px rgb(0, 0, 0, 0.1);
+}
+
+section.container .five .mac {
+				width:95%;
+				padding:15px 0 10px 0;
+				border-radius:25px 25px 25px 25px;
+				color:white;
+				font-weight:bold;
+				border:none;
+				background:hsl(233, 100%, 69%);
+				border-bottom:2px solid hsl(233, 100%, 59%);
+				margin:5% 0 5% 0;
+				font-size:18px;
+				box-shadow: 0px 10px 20px rgb(0, 0, 0, 0.1);
+}
+
+
+/* Tablet design for main body sections */
+
+@media screen and (min-width:768px) and (max-width:1023px){
+
+section.container .hero {
+				width:70%;
+				padding:0% 15% 0% 15%;
+				height:auto;
+}
+
+section.container .hero .hero-text .ios,  section.container .hero .hero-text .mac{
+				width:40%;
+				margin:5% 5px 5% 5px;
+				font-size:15px;
+}
+
+
+section.container .one .one-intro {
+				width:70%;
+				padding:0% 15% 0% 15%;
+				height:auto;
+}
+
+section.container .two .two-intro {
+				width:70%;
+				padding:0% 15% 0% 15%;
+				height:auto;
+}
+
+section.container .four img {
+				width:12.5%;
+				margin:0% 3.5% 0% 3.5%;
+				padding:0% 0 0% 0;
+				float:left;
+				
+}
+
+
+
+section.container .five {
+				width:70%;
+				padding:0% 15% 0% 15%;
+				height:auto;
+				
+}
+
+
+
+section.container .five .ios,  section.container .five .mac{
+				width:40%;
+				margin:5% 5px 5% 5px;
+				font-size:15px;
+}
+
+
+}
+
+/* Desktop design for main body sections */
+
+@media screen and (min-width:1024px) {
+
+				section.container .one .one-intro {
+				width:55%;
+				padding:0% 22.5% 0% 22.5%;				
+				height:auto;
+				
+}
+
+				section.container .one .one-img {
+				width:50%;
+				float:left;
+				margin-right:5%
+}
+
+     section.container .one .one-list {
+				width:40%;
+				float:left;
+				text-align:left;
+				margin-left:5%;
+				
+}
+
+section.container .two .two-intro {
+				width:55%;
+				padding:0% 22.5% 0% 22.5%;				
+				height:auto;
+				
+}
+
+section.container .three .three-intro {
+				width:55%;
+				padding:0% 22.5% 0% 22.5%;			
+				margin:2.5% 0 2.5% 0;	
+				height:auto;
+				
+}
+
+section.container .three .three-blocks .block {
+				float:left;
+				width:33%;
+}
+
+section.container .three .three-blocks img {
+				margin:5% 0 5% 0;
+}
+
+section.container .four img {
+				width:12.5%;
+				margin:0% 3.5% 0% 3.5%;
+				padding:0% 0 0% 0;
+				float:left;
+				
+}
+
+section.container .five {
+				width:55%;
+				padding:0% 22.5% 0% 22.5%;
+				height:auto;
+				
+}
+
+section.container .five .ios,  section.container .five .mac{
+				width:30%;
+				margin:5% 10px 5% 10px;
+				font-size:15px;
+}
+
+
+}
+
+
+footer {
+				width:90%;
+				padding:5%;
+				margin:5% 0 0 0;
+				background:hsla(201, 11%, 66%, 0.1);
+				text-align:center;
+				overflow:auto;
+}
+
+
+
+footer .logo {
+				margin:5% 0 5% 0;
+				float:none;
+				width:auto;
+				text-align:inherit;
+}
+
+footer .logo img {
+				width:50px;
+				
+}
+
+footer .list-1, footer .list-2, footer .list-3 {
+				float:none;
+				width:auto;
+				text-align:inherit;
+				margin:0;
+}
+
+footer ul {
+				list-style-type:none;
+				
+}
+
+footer ul li {
+				font-size:20px;
+				font-weight:bold;
+				padding:0px 0 20px 0;
+				
+}
+
+footer .social-icons {
+				float:none;
+				width:auto;
+				text-align:inherit;
+				margin:0;
+}
+
+
+footer .social-icons i {
+				font-size:25px;
+				margin:10px;
+}
+
+
+
+/* Tablet and desktop design for footer section */
+
+@media screen and (min-width:768px) {
+				footer {
+								
+				}
+				
+				footer .logo {
+								float:left;
+								width:15%;
+								text-align:left;
+								margin:2.5% 0 0% 0;
+				}
+				
+				footer .list-1, footer .list-2, footer .list-3 {
+				float:left;
+				width:20%;
+				text-align:left;
+				margin:2.5% 0 0% 0;
+}
+				
+				footer .social-icons {
+								float:left;
+								width:25%;
+								text-align:right;
+								margin:5% 0 2.5% 0;
+				}
+}
